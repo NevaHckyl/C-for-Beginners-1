@@ -1,0 +1,10 @@
+var names = new List<string> { "Scott", "Ana", "Felipe" };
+        
+names.Add("David");
+names.Add("Damian");
+names.Add("Maria");
+        
+foreach (var name in names)
+{
+    Console.WriteLine($"Hello {name.ToUpper()!}");
+}
